@@ -1,6 +1,6 @@
-# in this script a cv-baseds LR-test is illustrated using the Boston housing dataset.
-# the approach is applied using a linear model, gbm and xgboost
-# the approach by Dezeure et al (2015), https://arxiv.org/abs/1408.4026, implemented in the hdi package, is applied as well.
+# This script applies a cv-based LR-test using the Boston housing dataset.
+# The approach is illustrated using a linear model, gbm and xgboost.
+# The approach by Dezeure et al (2015), https://arxiv.org/abs/1408.4026, implemented in the hdi package, is applied as well.
 library(MASS)
 library(lmtest)
 library(dplyr)
